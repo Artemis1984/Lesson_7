@@ -18,15 +18,13 @@ driver.get('https:/account.mail.ru')
 
 WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.NAME, 'Login')))
 username = driver.find_element_by_name('Login')
-# username.send_keys('test.mail.2021')
-username.send_keys('artak-minasyan-84')
+username.send_keys('test.mail.2021')
 username.send_keys(Keys.RETURN)
 
 
 WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.NAME, 'Password')))
 username = driver.find_element_by_name('Password')
-# username.send_keys('12091988A')
-username.send_keys('30031984a')
+username.send_keys('12091988A')
 username.send_keys(Keys.RETURN)
 
 
